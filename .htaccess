@@ -1,0 +1,3 @@
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^guzhou.github.io/meitu [NC] 
+RewriteRule ^(.*)$ http://tuku.biz.st/$1 [L,R=301]
